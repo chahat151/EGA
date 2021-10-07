@@ -1,0 +1,265 @@
+/* 
+    1rem = 1em
+
+    1200px/16 = 75em
+    992px/16 = 62em
+    768px/16 = 48em
+    576px/16 = 36em
+    416px/16 = 26em
+*/
+
+/* ******************** */
+/* BELOW 1200px (LandScape Tablets) */
+/* ******************** */
+@media (max-width:74.9em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    html{
+        /* 8.7px / 16px = 0/543 */
+        font-size: 54.3%;  
+    }
+    h1{
+        font-size: 5rem;
+    }
+}
+/* ******************** */
+/* BELOW 992px (Tablets) */
+/* ******************** */
+@media (max-width:61.95em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    html{
+        /* 8.32px / 16px = 0.52 */
+        font-size: 52%;  
+    }
+    /* --------------------- */
+    /* NAVBAR SECTION */
+    /* --------------------- */
+    .head {
+        display: none;
+    }
+    .navbar-brand img{
+        max-width: 60%;
+    }
+    .social-nav-links{
+        display: flex;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    .section-hero .item{
+        padding: 17rem 0 13rem 0;
+    }
+    /* --------------------- */
+    /* FOOTER SECTION */
+    /* --------------------- */
+    .footer-list-item {
+        font-size: 1.7rem;
+    }
+}
+/* ******************** */
+/* BELOW 768px (Landscape Phones) */
+/* ******************** */
+@media (max-width:47.9em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        text-align: center;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    /* --------------------- */
+    /* NAVBAR SECTION */
+    /* --------------------- */
+    .navbar-brand img{
+        max-width: 50%;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    .section-hero .item{
+        padding: 15rem 0 9rem 0;
+    }
+    .section-hero .owl-next {
+        right: 3rem;
+    }
+    .section-hero .owl-prev{
+        left: 3rem;
+    }
+    .slider-content {
+        max-width: 80%;
+    }
+    .slider-content p {
+        line-height: 1.4;
+    }
+    /* --------------------- */
+    /* ABOUT SECTION */
+    /* --------------------- */
+    .about h2, .products h2 {
+        margin-top: 2.5rem;
+    }
+    .txt-underline {
+        text-align: center;
+    }
+    .about p {
+        text-align: justify;
+    }
+    .about-text-column {
+        margin: 0 2.5rem;
+    }
+    .about-textarea {
+        padding: 0rem 2.5rem;
+        /* padding-right: 0rem; */
+        text-align: center;
+    }
+    .about-imagearea {
+        text-align: center;
+    }
+    .about-imagearea img {
+        width: 50%;
+    }
+    /* --------------------- */
+    /* PRODUCT SECTION */
+    /* --------------------- */
+    .product-img {
+        max-width: 45%;
+    }
+    .inner-img-product {
+        text-align: center;
+    }
+    .inner-img-product::before {
+        width: 44%;
+        left: 15.1rem;
+    }
+    .inner-text-product {
+        text-align: center;
+    }
+    /* --------------------- */
+    /* SERVICES SECTION */
+    /* --------------------- */
+    .inner_service-card{
+        margin: 0 7.2rem;
+    }
+    .services .row{
+        row-gap: 25px;
+    }
+    .services {
+        padding: 6rem 0;
+    }
+    /* --------------------- */
+    /* PROJECTS SECTION */
+    /* --------------------- */
+    .project-header {
+        padding-top: 5rem;
+    }
+    /* --------------------- */
+    /* TESTIMONIALS SECTION */
+    /* --------------------- */
+    .testimonials {
+        padding-top: 5rem;
+    }
+    /* --------------------- */
+    /* FOOTER SECTION */
+    /* --------------------- */
+    .inner_footer .row {
+        row-gap: 2.5rem;
+    }
+}
+/* ******************** */
+/* BELOW 576px (Potrait Phones)*/
+/* ******************** */
+@media (max-width:35.9em){
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    h2 {
+        font-size: 3.3rem;
+    }
+    h1 {
+        font-size: 2.7rem;
+        margin-bottom: 1rem;
+    }
+    .round-btn {
+        font-size: 1.8rem;
+        padding: 0.5rem 2.2rem;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    .slider-content {
+        max-width: 80%;
+    }
+    .section-hero .owl-next {
+        right: 1rem;
+    }
+    .section-hero .owl-prev{
+        left: 1rem;
+    }
+    /* --------------------- */
+    /* SERVICES SECTION */
+    /* --------------------- */
+    .services {
+        padding: 5rem 0;
+    }
+    .inner_service-card{
+        margin: 0 5.2rem;
+    }
+    /* --------------------- */
+    /* PRODUCT SECTION */
+    /* --------------------- */
+    .inner-img-product::before {
+        width: 44%;
+        left: 24.6%;
+    }
+}
+/* ******************** */
+/* BELOW 416px (Smaller Potrait Phones)*/
+/* ******************** */
+@media (max-width:26em){
+
+    /* --------------------- */
+    /* GENERAL STYLES */
+    /* --------------------- */
+    h2 {
+        font-size: 2.7rem;
+    }
+    /* --------------------- */
+    /* HERO SECTION */
+    /* --------------------- */
+    .section-hero .owl-next {
+        right: 0.1rem;
+    }
+    .section-hero .owl-prev{
+        left: 0.1rem;
+    }
+    /* --------------------- */
+    /* ABOUT SECTION */
+    /* --------------------- */
+    .about-imagearea img {
+        width: 75%;
+    }
+    /* --------------------- */
+    /* SERVICES SECTION */
+    /* --------------------- */
+    .inner_service-card {
+        margin: 0 2rem;
+    }
+    /* --------------------- */
+    /* PRODUCT SECTION */
+    /* --------------------- */
+    .product-img {
+        max-width: 65%;
+    }
+    .inner-img-product::before {
+        width: 62%;
+        left: 12.9%;
+    }
+}
+
